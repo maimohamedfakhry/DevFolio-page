@@ -1,0 +1,440 @@
+/************************************************************************************************/
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+#homepage {
+  height: 100vh;
+  background-image: url("../images/intro-bg.jpg");
+  background-size: cover;
+  line-height: 2rem;
+  color: white;
+}
+#homepage .home p::before {
+  content: "Graphic Designer";
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  animation: mymove 5s infinite;
+  -webkit-animation: mymove 17s infinite;
+}
+@keyframes mymove {
+  0% {
+    content: "Graphic Designer|";
+  }
+  1.5% {
+    content: "Graphic Design|";
+  }
+  3% {
+    content: "Graphic Desi|";
+  }
+  4.5% {
+    content: "Graphic De|";
+  }
+  6% {
+    content: "Graphic |";
+  }
+  7.5% {
+    content: "Graphi|";
+  }
+  9% {
+    content: "Grap|";
+  }
+  10.5% {
+    content: "Gr|";
+  }
+  12% {
+    content: "|";
+  }
+  13.5% {
+    content: "We|";
+  }
+  15% {
+    content: "Web |";
+  }
+  16.5% {
+    content: "Web De|";
+  }
+  18% {
+    content: "Web Deve|";
+  }
+  19.5% {
+    content: "Web Develo|";
+  }
+  21% {
+    content: "Web Develope|";
+  }
+  22.5% {
+    content: "Web Developer |";
+  }
+  24% {
+    content: "Web Develope|";
+  }
+  25.5% {
+    content: "Web Develo|";
+  }
+  27% {
+    content: "Web Deve|";
+  }
+  28.5% {
+    content: "Web De|";
+  }
+  30% {
+    content: "Web |";
+  }
+  31.5% {
+    content: "Web De|";
+  }
+  33% {
+    content: "Web Desi|";
+  }
+  34.5% {
+    content: "Web Design|";
+  }
+  36% {
+    content: "Web Designer|";
+  }
+  37.5% {
+    content: "Web Design|";
+  }
+  39% {
+    content: "Web Desi|";
+  }
+  40.5% {
+    content: "Web De|";
+  }
+  42% {
+    content: "Web |";
+  }
+  43.5% {
+    content: "We|";
+  }
+  45% {
+    content: "|";
+  }
+  46.5% {
+    content: "Fr|";
+  }
+  48% {
+    content: "Fron|";
+  }
+  49.5% {
+    content: "Front-|";
+  }
+  51% {
+    content: "Front-En|";
+  }
+  52.5% {
+    content: "Front-End |";
+  }
+  54% {
+    content: "Front-End De|";
+  }
+  56.5% {
+    content: "Front-End Deve|";
+  }
+  58% {
+    content: "Front-End Develo|";
+  }
+  59.5% {
+    content: "Front-End Develope|";
+  }
+  61% {
+    content: "Front-End Developer |";
+  }
+  62.5% {
+    content: "Front-End Develope|";
+  }
+  64% {
+    content: "Front-End Develo|";
+  }
+  65.5% {
+    content: "Front-End Deve|";
+  }
+  67% {
+    content: "Front-End De|";
+  }
+  68.5% {
+    content: "Front-End |";
+  }
+  70% {
+    content: "Front-En|";
+  }
+  71.5% {
+    content: "Front-|";
+  }
+  73% {
+    content: "Fron|";
+  }
+  74.5% {
+    content: "Fr|";
+  }
+  76% {
+    content: "|";
+  }
+  77.5% {
+    content: "Gr|";
+  }
+  79% {
+    content: "Grap|";
+  }
+  80.5% {
+    content: "Graphi|";
+  }
+  82% {
+    content: "Graphic |";
+  }
+  83.5% {
+    content: "Graphic De|";
+  }
+  85% {
+    content: "Graphic Desi|";
+  }
+  86.5% {
+    content: "Graphic Design|";
+  }
+  88% {
+    content: "Graphic Designer|";
+  }
+  89.5% {
+    content: "Graphic Design|";
+  }
+  91% {
+    content: "Graphic Desi|";
+  }
+  92.5% {
+    content: "Graphic De|";
+  }
+  94% {
+    content: "Graphic |";
+  }
+  95.5% {
+    content: "Graphic De|";
+  }
+  97% {
+    content: "Graphic Desi|";
+  }
+  98.5% {
+    content: "Graphic Design|";
+  }
+  100% {
+    content: "Graphic Designer|";
+  }
+}
+#homepage .hd {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.navbar-toggler span {
+  display: block;
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+#homepage .home {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#homepage .clrr {
+  height: 2rem;
+  width: 3px;
+  background-color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 2.5rem;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.navbar-brand {
+  color: #0078ff !important;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.arrowfont {
+  font-size: 30px;
+  color: white;
+  background-color: #0078ff;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 1.3rem;
+  padding-bottom: 0.7rem;
+}
+.changebg {
+  color: white !important ;
+}
+.navbar .brdline {
+  width: 0;
+  height: 3px;
+  top: 50px;
+  left: 2.5rem;
+  background-color: #0078ff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #0078ff;
+}
+.navbar .nav-item:hover .brdline {
+  width: 40px;
+}
+/*******************************************************************************************/
+#aboutme {
+  height: auto;
+  width: 100%;
+  background-color: #f5f5f5;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#services {
+  height: auto;
+  width: 100%;
+  background-color: #f5f5f5;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#services .iiicon {
+  border: 8px solid #0078ff;
+  background-color: white;
+  color: black;
+  padding: 25px 22px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+#services .hov:hover .iiicon {
+  color: white;
+  background-color: #0078ff;
+  border: 8px solid #cde1f8;
+}
+#counter {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("../images/counters-bg.jpg");
+  background-size: cover;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.modal-footer .hov-muted {
+  color: #ccc;
+}
+.modal-footer .hov-muted:hover {
+  color: white;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-footer .bbtn {
+  padding: 0;
+  margin: 0;
+}
+.modal-dialog {
+  max-width: 900px;
+}
+.modal-footer {
+  padding: 0;
+  border-top: none;
+}
+.modal-body {
+  padding: 0.3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+#counter .count {
+  background-color: rgba(0, 120, 255, 0.7);
+}
+#carosel {
+  background-image: url("../images/overlay-bg.jpg");
+  background-size: cover;
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+#carosel button,
+#carosel input,
+#carosel optgroup,
+#carosel select,
+#carosel textarea {
+  width: 31px;
+  height: 9px;
+
+  border: gray;
+}
+#portifolio {
+  background-color: #f5f5f5;
+}
+#portifolio .container .hoverrr .imgg {
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+#portifolio .container .hoverrr:hover .imgg {
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+#blog .card-header {
+  padding: 0;
+}
+#blog .hhovv {
+  color: black;
+}
+#blog .hhovv:hover {
+  color: #0078ff;
+}
+#sendmessage {
+  background-image: url("../images/overlay-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+#sendmessage .btn {
+  line-height: 1.5rem;
+  padding: 0.9rem 2.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 4rem;
+  border: 5px solid white;
+  color: white;
+}
+#sendmessage .btn:hover {
+  border: 5px solid #cde1f8;
+}
+#sendmessage .iconn {
+  background-color: white;
+  border: 3px solid #0078ff;
+}
+#sendmessage .iconn:hover {
+  color: white;
+  background-color: #0078ff;
+  border: 3px solid #cde1f8;
+}
